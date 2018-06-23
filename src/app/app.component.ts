@@ -32,7 +32,7 @@ export class AppComponent {
   getShortUrl() {
     this.shortUrl = null;
     let urlData = {
-      last_enter_url: this.url;
+      last_enter_url: this.url
   }
     this.appService
       .postUrl(urlData)
